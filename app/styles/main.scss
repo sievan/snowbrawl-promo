@@ -122,3 +122,20 @@ body {
 .profile-pic {
   width: 100%;
 }
+
+// Overide
+
+.nav-pills>li>a {
+  border-radius: 20px;
+  color: rgb(99, 201, 228);
+  &:hover {
+    background-color: rgb(239, 252, 255);
+  }
+}
+
+.nav-pills > li.active > a {
+  background-color: rgb(163, 227, 244);
+  &:hover {
+    background-color: rgb(133, 207, 224);
+  }
+}
