@@ -102,7 +102,8 @@ body {
 }
 
 .section-grey {
-  background-color: #bbb;
+  background-color: rgb(91, 158, 205);
+  color: white;
   padding: 20px 20px;
 }
 
@@ -121,6 +122,11 @@ body {
 
 .profile-pic {
   width: 100%;
+}
+
+.usp-icon.fa {
+  font-size: 9rem;
+  margin: 3rem;
 }
 
 // Overide
